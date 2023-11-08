@@ -12,7 +12,11 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
+<<<<<<< HEAD
     origin: ["http://localhost:3000", "http://192.168.1.102:3000"],
+=======
+    origin: "https://chat.alcrro.ro",
+>>>>>>> 28cfd7f9eb8615c9b98f13e131e96be5c065a3dc
     methods: ["GET", "POST"],
   },
 });
